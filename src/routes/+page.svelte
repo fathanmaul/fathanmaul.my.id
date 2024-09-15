@@ -8,8 +8,8 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Fathan Maulana</title>
+	<meta name="description" content="Svelte Portfolio" />
 </svelte:head>
 
 <section>
@@ -20,6 +20,9 @@
 		<Project />
 		<Certificate />
 	</div>
+	<button>
+		
+	</button>
 	<Footer />
 </section>
 

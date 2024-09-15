@@ -27,7 +27,7 @@
 				Android app development, which allows me to bring a unique perspective to every project I
 				undertake.
 			</p>
-			<div>
+			<div class="my-5">
 				<a href="CV_FATHAN.pdf" class="px-4 py-3 text-white bg-neutral-800">Download CV</a>
 			</div>
 			<div class="flex items-center gap-4">

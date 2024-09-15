@@ -3,7 +3,7 @@
 	import { FaSolidArrowDown } from 'svelte-icons-pack/fa';
 </script>
 
-<div class="mt-[300px]">
+<div class="flex flex-col justify-center min-h-screen" id="#">
 	<div class="flex flex-col justify-between gap-5 lg:flex-row lg:items-center md:gap-0">
 		<div>
 			<h2 class="text-4xl font-semibold lg:text-6xl">

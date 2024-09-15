@@ -10,6 +10,21 @@ export const certificate: Certificate[] = [
 		image: '/images/certificate/tbi/EFBC.webp'
 	},
 	{
+		name: 'Build Web App with React',
+		organization: 'Dicoding Indonesia',
+		image: '/images/certificate/dicoding/BMAWR.webp'
+	},
+	{
+		name: 'Front End Web for Beginners',
+		organization: 'Dicoding Indonesia',
+		image: '/images/certificate/dicoding/BMFEWP.webp'
+	},
+	{
+		name: 'Junior Web Developer',
+		organization: 'VSGA - Badan Nasional Sertifikasi Profesi',
+		image: '/images/certificate/vsga/jwd.webp'
+	},
+	{
 		name: 'Android Application Intermediate',
 		organization: 'Dicoding Indonesia',
 		image: '/images/certificate/dicoding/BPAAI.webp'
@@ -23,20 +38,5 @@ export const certificate: Certificate[] = [
 		name: 'Android Application Fundamental',
 		organization: 'Dicoding Indonesia',
 		image: '/images/certificate/dicoding/BFAI.webp'
-	},
-	{
-		name: 'Android Application for Beginners',
-		organization: 'Dicoding Indonesia',
-		image: '/images/certificate/dicoding/BMAAP.webp'
-	},
-	{
-		name: 'Front End Web for Beginners',
-		organization: 'Dicoding Indonesia',
-		image: '/images/certificate/dicoding/BMFEWP.webp'
-	},
-	{
-		name: 'Junior Web Developer',
-		organization: 'VSGA - Badan Nasional Sertifikasi Profesi',
-		image: '/images/certificate/vsga/jwd.webp'
 	}
 ];
