@@ -34,7 +34,7 @@
 				<a href="mailto:fthnmrh012@gmail.com">
 					<Icon src={IoMail} className="text-3xl" />
 				</a>
-				<a href="https://www.facebook.com/Extinctly" target="_blank">
+				<a href="https://www.facebook.com/fathanmaulreal" target="_blank">
 					<Icon src={FaBrandsFacebook} className="text-2xl" />
 				</a>
 				<a href="https://www.linkedin.com/in/fathanmaul" target="_blank">
