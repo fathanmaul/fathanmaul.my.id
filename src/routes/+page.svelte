@@ -20,9 +20,6 @@
 		<Project />
 		<Certificate />
 	</div>
-	<button>
-		
-	</button>
 	<Footer />
 </section>
 

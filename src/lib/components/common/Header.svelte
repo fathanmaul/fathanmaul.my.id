@@ -75,6 +75,9 @@
 								<a
 									href={`#${nav.link}`}
 									class="font-semibold lg:text-xl"
+									id={`nav-to-${nav.link}`}
+									data-name={`nav-to-${nav.link}`}
+									aria-label={`Navigate to ${nav.name}`}
 									on:click={handleAnchorScroll}
 								>
 									{nav.name}

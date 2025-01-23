@@ -6,12 +6,12 @@
 <div class="min-h-[473px] mt-[20px]">
 	<div class="flex flex-col-reverse gap-4 lg:gap-0 lg:justify-between lg:flex-row">
 		<div class="flex flex-col max-w-xl gap-4">
-			<h5 class="text-lg font-medium">
+			<h2 class="text-lg font-medium">
 				{id.length === 1 ? `0${id}` : id} / {project.name.toUpperCase()}
-			</h5>
-			<h6 class="text-neutral-700">
+			</h2>
+			<h3 class="text-neutral-700">
 				{project.description}
-			</h6>
+			</h3>
 			<p>
 				<span class="font-semibold">Role:</span>
 				{project.role}

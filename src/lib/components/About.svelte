@@ -28,22 +28,22 @@
 				undertake.
 			</p>
 			<div class="my-5">
-				<a href="CV_FATHAN.pdf" class="px-4 py-3 text-white bg-neutral-800">Download CV</a>
+				<a href="CV_FATHAN.pdf" id="link-cv" data-name="link-cv" aria-label="Link to cv" class="px-4 py-3 text-white bg-neutral-800">Download CV</a>
 			</div>
 			<div class="flex items-center gap-4">
-				<a href="mailto:fthnmrh012@gmail.com">
+				<a href="mailto:fthnmrh012@gmail.com" id="link-mail" data-name="link-mail" aria-label="Link to mail">
 					<Icon src={IoMail} className="text-3xl" />
 				</a>
-				<a href="https://www.facebook.com/fathanmaulreal" target="_blank">
+				<a href="https://www.facebook.com/fathanmaulreal" id="link-facebook" data-name="link-facebook" aria-label="Link to facebook" target="_blank">
 					<Icon src={FaBrandsFacebook} className="text-2xl" />
 				</a>
-				<a href="https://www.linkedin.com/in/fathanmaul" target="_blank">
+				<a href="https://www.linkedin.com/in/fathanmaul" id="link-linkedin" data-name="link-linkedin" aria-label="Link to linkedin" target="_blank">
 					<Icon src={FaBrandsLinkedin} className="text-2xl" />
 				</a>
-				<a href="https://www.github.com/fathanmaul" target="_blank">
+				<a href="https://www.github.com/fathanmaul" id="link-github" data-name="link-github" aria-label="Link to github" target="_blank">
 					<Icon src={FaBrandsGithub} className="text-2xl" />
 				</a>
-				<a href="https://www.instagram.com/fthan.maul" target="_blank">
+				<a href="https://www.instagram.com/fthan.maul" id="link-instagram" data-name="link-instagram" aria-label="Link to instagram" target="_blank">
 					<Icon src={FaBrandsInstagram} className="text-2xl" />
 				</a>
 			</div>
