@@ -1,4 +1,3 @@
-// components/Navbar.tsx
 import { useState } from "react";
 import { HiMenu, HiMoon, HiOutlineX } from "react-icons/hi";
 
@@ -24,10 +23,8 @@ export default function Navbar() {
   return (
     <header className="bg-white fixed top-0 left-0 w-full z-50">
       <div className="container px-4 h-[60px] xl:h-[100px] 2xl:h-[120px] 2xl:px-0 lg:pt-0 mx-auto flex justify-between items-center">
-        {/* Logo */}
         <h1 className="font-extralight text-lg xl:text-[24px]">fathanmaul.</h1>
 
-        {/* Desktop nav */}
         <nav className="flex gap-6">
           <div className="hidden md:flex gap-6">
             {nav_items.map((nav, i) => (
@@ -39,7 +36,6 @@ export default function Navbar() {
           <button>
             <HiMoon className="text-2xl text-gray-800"/>
           </button>
-          {/* Hamburger Button */}
           <button
             className="md:hidden focus:outline-none"
             onClick={toggleMenu}
@@ -56,7 +52,6 @@ export default function Navbar() {
 
       </div>
 
-      {/* Mobile Nav - Offcanvas */}
       <div
         className={`fixed top-0 left-0 h-full w-64 bg-dark lg:hidden shadow-md transform transition-transform duration-300 ease-in-out z-40 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
@@ -76,7 +71,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Overlay (optional) */}
       {isOpen && (
         <div
           className="fixed inset-0 bg-black/30 z-30 lg:hidden"
