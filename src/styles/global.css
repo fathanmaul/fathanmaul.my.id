@@ -32,9 +32,9 @@
 }
 
 @utility font-display {
-    @apply text-sm sm:text-base font-extralight md:text-xl
+    @apply text-base sm:text-lg font-extralight md:text-xl
 }
 
 @utility font-hero {
-    @apply leading-none my-4 2xl:mt-[16px] bg-gradient-to-r from-[#9845E8] via-[#33D2FF] to-[#DD5789] inline-block text-transparent bg-clip-text font-semibold text-5xl 2xl:text-[96px]
+    @apply leading-none my-4 2xl:mt-[16px] bg-gradient-to-r from-[#9845E8] via-[#33D2FF] to-[#DD5789] inline-block text-transparent bg-clip-text font-semibold text-6xl 2xl:text-[96px]
 }
