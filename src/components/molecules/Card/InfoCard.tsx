@@ -14,7 +14,7 @@ function InfoTitle({ children, className }: InfoCardProps) {
 }
 
 function InfoDate({ children, className }: InfoCardProps) {
-  return <p className={`text-sm 2xl:text-xl ${className}`}>{children}</p>;
+  return <p className={`text-sm 2xl:text-xl text-end ${className}`}>{children}</p>;
 }
 
 function InfoHeading({ children, className }: InfoCardProps) {

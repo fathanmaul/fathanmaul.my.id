@@ -11,7 +11,7 @@ import Tag from "../atoms/Tag";
 
 export default function ProjectList() {
   return (
-    <div className="pb-[120px] 2xl:mt-[120px]">
+    <div>
       <h3 className="uppercase">Featured Projects</h3>
       <div className="mt-4 grid grid-cols-1 gap-4 lg:grid-cols-2 2xl:mt-[51px] 2xl:gap-x-16 2xl:gap-y-5">
         {Array.from({ length: 6 }).map((_, idx) => (

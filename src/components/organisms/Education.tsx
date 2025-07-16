@@ -4,7 +4,7 @@ import Tag from '../atoms/Tag'
 
 export default function Education() {
   return (
-    <div className="grid grid-cols-1 pb-[120px] gap-4 lg:gap-0 lg:grid-cols-9">
+    <div className="grid grid-cols-1 gap-4 lg:gap-0 lg:grid-cols-9">
       <div className="col-span-12 lg:col-span-2">
         <h3 className="uppercase">Education</h3>
       </div>

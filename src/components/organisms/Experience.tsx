@@ -10,7 +10,7 @@ import Tag from "../atoms/Tag";
 
 export default function Experience() {
   return (
-    <div className="grid grid-cols-1 pb-[120px] gap-4 lg:gap-0 lg:grid-cols-9">
+    <div className="grid grid-cols-1 gap-4 lg:gap-0 lg:grid-cols-9">
       <div className="col-span-12 lg:col-span-2">
         <h3 className="uppercase">Experience</h3>
       </div>

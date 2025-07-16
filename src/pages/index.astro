@@ -6,14 +6,16 @@ import Hero from "../components/organisms/Hero";
 import ProjectList from "../components/organisms/ProjectList";
 import Experience from "../components/organisms/Experience";
 import Education from "../components/organisms/Education";
+import Contacts from "../components/organisms/Contacts";
 ---
 
 <Layout>
   <Navbar client:load />
-  <div class="container">
+  <div class="container flex flex-col gap-[60px] 2xl:gap-[120px] pb-[120px]">
     <Hero />
     <ProjectList />
     <Experience />
     <Education />
+    <Contacts />
   </div>
 </Layout>
