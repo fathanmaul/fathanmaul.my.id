@@ -4,10 +4,14 @@ import Navbar from "../components/organisms/Navbar";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/organisms/Hero";
 import ProjectList from "../components/organisms/ProjectList";
+import Experience from "../components/organisms/Experience";
 ---
 
 <Layout>
   <Navbar client:load />
-  <Hero />
-  <ProjectList />
+  <div class="container">
+    <Hero />
+    <ProjectList />
+    <Experience />
+  </div>
 </Layout>

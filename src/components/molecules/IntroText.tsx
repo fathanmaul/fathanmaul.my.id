@@ -3,11 +3,11 @@ import React from "react";
 export default function IntroText() {
   return (
     <div>
-      <h3>Hey, I'm</h3>
+      <h3 className="font-extralight">Hey, I'm</h3>
       <h1 className="font-hero" id="hero-heading">
         Fathan Maulana
       </h1>
-      <p className="text-justify text-sm lg:text-xl  2xl:mt-[24px]" id="hero-paragraph">
+      <p className="text-justify text-sm lg:text-xl font-extralight 2xl:mt-[24px]" id="hero-paragraph">
         I'm a Software Engineer based in Bondowoso, East Java, with a passion
         for Front-End Development. I'm a detail-oriented and dedicated
         individual who enjoys turning ideas into functional and visually

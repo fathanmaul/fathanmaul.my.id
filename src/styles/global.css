@@ -32,7 +32,7 @@
 }
 
 @utility font-display {
-    @apply text-base sm:text-lg font-extralight md:text-xl
+    @apply text-base sm:text-lg font-light md:text-xl
 }
 
 @utility font-hero {
