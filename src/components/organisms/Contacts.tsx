@@ -10,7 +10,7 @@ export default function Contacts() {
       </div>
       <div className="col-span-12 grid grid-cols-2 2xl:grid-cols-4 gap-4 lg:col-span-7">
         {Array.from({length: 4}).map((_, idx) => (
-            <Button variant={'outline'}>
+            <Button variant={'outline'} key={idx}>
                 <span><BsGithub/></span>
                 Github
             </Button>

@@ -2,12 +2,12 @@ import type React from "react";
 import { BsGithub, BsLink } from "react-icons/bs";
 
 function Card({ children }: { children: React.ReactNode }) {
-  return <div className="w-full">{children}</div>;
+  return <div className="w-full flex flex-col gap-1">{children}</div>;
 }
 
 function CardImage({ image_url }: { image_url: string }) {
   return (
-    <div className="w-full overflow-hidden 2xl:h-[380px]">
+    <div className="w-full overflow-hidden 2xl:h-[400px]">
       <img src={`${image_url}`} className="h-full w-full object-cover" />
     </div>
   );
@@ -49,7 +49,7 @@ function CardAction({
 }
 
 function CardDescription({children}: {children: React.ReactNode}) {
-    return <div className="text-sm 2xl:text-lg">
+    return <div className="text-sm 2xl:text-base">
         {children}
     </div>
 

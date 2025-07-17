@@ -14,8 +14,7 @@ export default function IntroText() {
         appealing web experiences. As a fresh graduate, I'm just getting started
         in the freelance world. I've worked with various front-end frameworks
         and love building things for the web—be it simple websites or
-        interactive applications. Though I'm still early in my journey, I'm
-        eager to keep learning and growing with every project I take on.
+        interactive applications.
       </p>
     </div>
   );
