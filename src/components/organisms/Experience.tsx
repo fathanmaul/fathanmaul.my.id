@@ -30,7 +30,7 @@ export default function Experience({ experiences }: Props) {
         {experiences.map((experience, i) => (
           <InfoCard key={i}>
             <InfoHeading>
-              <InfoTitle>{experience.title}</InfoTitle>
+              <InfoTitle className="max-w-[50%] 2xl:max-w-none">{experience.title}</InfoTitle>
               <InfoDate>{experience.start_date} - {experience.end_date}</InfoDate>
             </InfoHeading>
             <Tag className="text-sm 2xl:text-base">{experience.location}</Tag>
@@ -38,7 +38,7 @@ export default function Experience({ experiences }: Props) {
               <ul className="flex flex-col gap-3">
                 {experience.job_desks.map((i, idx) => (
                   <li key={idx}>
-                    - {i} Lorem ipsum dolor sit amet consectetur adipisicing elit. A tenetur, iusto facilis saepe quibusdam sunt unde obcaeca
+                    - {i}
                   </li>
                 ))}
               </ul>

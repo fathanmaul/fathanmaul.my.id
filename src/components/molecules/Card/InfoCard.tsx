@@ -6,7 +6,7 @@ type InfoCardProps = {
 };
 
 function InfoCard({ children, className }: InfoCardProps) {
-  return <div className={`flex flex-col 2xl:gap-2 ${className}`}>{children}</div>;
+  return <div className={`flex flex-col 2xl:gap-3 ${className}`}>{children}</div>;
 }
 
 function InfoTitle({ children, className }: InfoCardProps) {
@@ -14,7 +14,7 @@ function InfoTitle({ children, className }: InfoCardProps) {
 }
 
 function InfoDate({ children, className }: InfoCardProps) {
-  return <p className={`text-sm 2xl:text-xl text-end ${className}`}>{children}</p>;
+  return <p className={`text-xs 2xl:text-xl text-end ${className}`}>{children}</p>;
 }
 
 function InfoHeading({ children, className }: InfoCardProps) {
@@ -24,6 +24,6 @@ function InfoHeading({ children, className }: InfoCardProps) {
 }
 
 function InfoDescription({children, className}: InfoCardProps) {
-  return <div className={`text-sm 2xl:text-xl ${className}`}>{children}</div>
+  return <div className={`text-sm 2xl:text-lg ${className}`}>{children}</div>
 }
 export { InfoCard, InfoTitle, InfoDate, InfoHeading, InfoDescription };

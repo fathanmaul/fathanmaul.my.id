@@ -9,6 +9,7 @@ import Education from "../components/organisms/Education";
 import Contacts from "../components/organisms/Contacts";
 import projects from "../data/projects.json";
 import experiences from "../data/experience.json";
+import educations from "../data/education.json";
 ---
 
 <Layout>
@@ -17,7 +18,7 @@ import experiences from "../data/experience.json";
     <Hero />
     <ProjectList projects={projects} />
     <Experience experiences={experiences}/>
-    <Education />
+    <Education educations={educations}/>
     <Contacts />
   </div>
 </Layout>
