@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Front End Developer (Freelance)",
+        "location": "CV Nusantara Tama - Jember",
+        "start_date": "Jun 2025",
+        "end_date": "Jul 2025",
+        "job_desks": [
+            "1", "sdf", "3"
+        ]
+    },
+    {
+        "title": "Front End Developer (Intern)",
+        "location": "CV Nusantara Tama - Jember",
+        "start_date": "June 2025",
+        "end_date": "July 2025",
+        "job_desks": [
+            "1", "2", "3"
+        ]
+    },
+    {
+        "title": "Mobile Developer - Kotlin (Cohort)",
+        "location": "Bangkit Academy By Google, GoTo, and Traveloka",
+        "start_date": "Feb 2024",
+        "end_date": "Jun 2024",
+        "job_desks": [
+            "1", "2", "3"
+        ]
+    }
+]

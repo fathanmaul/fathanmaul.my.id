@@ -8,6 +8,7 @@ import Experience from "../components/organisms/Experience";
 import Education from "../components/organisms/Education";
 import Contacts from "../components/organisms/Contacts";
 import projects from "../data/projects.json";
+import experiences from "../data/experience.json";
 ---
 
 <Layout>
@@ -15,7 +16,7 @@ import projects from "../data/projects.json";
   <div class="container flex flex-col gap-[60px] 2xl:gap-[120px] pb-[120px]">
     <Hero />
     <ProjectList projects={projects} />
-    <Experience />
+    <Experience experiences={experiences}/>
     <Education />
     <Contacts />
   </div>

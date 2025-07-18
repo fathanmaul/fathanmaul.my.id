@@ -8,25 +8,40 @@ import {
 } from "../molecules/Card/InfoCard";
 import Tag from "../atoms/Tag";
 
-export default function Experience() {
+type ExperienceProps = {
+  title: string;
+  location: string;
+  start_date: string;
+  end_date: string;
+  job_desks: string[];
+};
+
+type Props = {
+  experiences: ExperienceProps[];
+};
+
+export default function Experience({ experiences }: Props) {
   return (
-    <div className="grid grid-cols-1 gap-4 lg:gap-0 lg:grid-cols-9">
+    <div className="grid grid-cols-1 gap-4 lg:grid-cols-9 lg:gap-0">
       <div className="col-span-12 lg:col-span-2">
         <h3 className="uppercase">Experience</h3>
       </div>
-      <div className="flex flex-col gap-8 2xl:gap-12 col-span-12 lg:col-span-7">
-        {Array.from({ length: 4 }).map((_, idx) => (
-          <InfoCard key={idx}>
+      <div className="col-span-12 flex flex-col gap-8 lg:col-span-7 2xl:gap-12">
+        {experiences.map((experience, i) => (
+          <InfoCard key={i}>
             <InfoHeading>
-              <InfoTitle>Front End Engineer</InfoTitle>
-              <InfoDate>Sep 2025 - Present</InfoDate>
+              <InfoTitle>{experience.title}</InfoTitle>
+              <InfoDate>{experience.start_date} - {experience.end_date}</InfoDate>
             </InfoHeading>
-            <Tag className="text-sm 2xl:text-base">Softbank</Tag>
-            <InfoDescription>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-              porro nostrum dolorem veritatis deserunt? Repudiandae a ea sit
-              voluptatibus corporis. Voluptates quaerat quidem, doloribus neque
-              incidunt minus tenetur ab adipisci.
+            <Tag className="text-sm 2xl:text-base">{experience.location}</Tag>
+            <InfoDescription> 
+              <ul className="flex flex-col gap-3">
+                {experience.job_desks.map((i, idx) => (
+                  <li key={idx}>
+                    - {i} Lorem ipsum dolor sit amet consectetur adipisicing elit. A tenetur, iusto facilis saepe quibusdam sunt unde obcaeca
+                  </li>
+                ))}
+              </ul>
             </InfoDescription>
           </InfoCard>
         ))}
