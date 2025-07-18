@@ -5,16 +5,20 @@
         "start_date": "Jun 2025",
         "end_date": "Jul 2025",
         "job_desks": [
-            "1", "sdf", "3"
+            "Refined the web application's design to match client specifications.",
+            "Adjusted the web interface according to client feedback.",
+            "Enhanced the visual appearance of the web app as requested by the client."
         ]
     },
     {
-        "title": "Front End Developer (Intern)",
+        "title": "Software Developer (Intern)",
         "location": "CV Nusantara Tama - Jember",
         "start_date": "June 2025",
         "end_date": "July 2025",
         "job_desks": [
-            "1", "2", "3"
+            "Developing web applications using Laravel.",
+            "Made web applications collaborating with the back-end engineers of the team.",
+            "Convert designs into real world applications and pages using Laravel Front End Tech (Blade)."
         ]
     },
     {
@@ -23,7 +27,9 @@
         "start_date": "Feb 2024",
         "end_date": "Jun 2024",
         "job_desks": [
-            "1", "2", "3"
+            "Studying material related to Android Development.",
+            "Implemented the front-end of an Android application using XML.",
+            "Working with the team to completed a capstone project."
         ]
     }
 ]
