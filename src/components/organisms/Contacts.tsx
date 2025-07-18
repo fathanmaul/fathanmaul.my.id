@@ -1,11 +1,10 @@
 import React from "react";
 import Button from "../atoms/Button";
 import { BsGithub, BsLinkedin, BsEnvelope, BsInstagram } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
 
 const contacts = [
   {
-    label: "Email",
+    label: "Send an Email",
     icon: <BsEnvelope />,
     href: "mailto:fthnmrh012@gmail.com",
   },
