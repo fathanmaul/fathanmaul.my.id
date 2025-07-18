@@ -1,18 +1,19 @@
 import { useState } from "react";
 import { HiMenu, HiMoon, HiOutlineX } from "react-icons/hi";
+import { handleAnchorScroll } from "../../../utils";
 
 const nav_items = [
   {
     name: "Projects",
-    url: "#",
+    url: "#projects",
   },
   {
     name: "Resume",
-    url: "#",
+    url: "#resumes",
   },
   {
     name: "Contacts",
-    url: "#",
+    url: "#contacts",
   },
 ];
 
@@ -28,7 +29,7 @@ export default function Navbar() {
         <nav className="flex gap-6">
           <div className="hidden md:flex gap-6">
             {nav_items.map((nav, i) => (
-              <a key={i} href={`${nav.url}`} className="text-gray-700 text-lg hover:text-blue-600 font-light">
+              <a key={i} href={`${nav.url}`} className="text-gray-700 text-lg hover:text-blue-600 font-light" onClick={handleAnchorScroll}>
                 {nav.name}
               </a>
             ))}
@@ -63,7 +64,9 @@ export default function Navbar() {
               key={i}
               href={`${nav.url}`}
               className="text-white hover:opacity-60 transition-all ease-in-out duration-300"
-              onClick={() => setIsOpen(false)}
+              onClick={() => {
+                setIsOpen(false)
+              }}
             >
               {nav.name}
             </a>

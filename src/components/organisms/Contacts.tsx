@@ -27,7 +27,7 @@ const contacts = [
 
 export default function Contacts() {
   return (
-    <div className="grid grid-cols-1 gap-4 lg:grid-cols-9 lg:gap-0">
+    <div className="grid grid-cols-1 gap-4 lg:grid-cols-9 lg:gap-0" id="contacts">
       <div className="col-span-12 lg:col-span-2">
         <h3 className="uppercase">Contacts</h3>
       </div>

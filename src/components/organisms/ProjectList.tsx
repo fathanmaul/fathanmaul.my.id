@@ -23,7 +23,7 @@ type Props = {
 
 export default function ProjectList({projects}: Props) {
   return (
-    <div>
+    <div id="projects">
       <h3 className="uppercase">Featured Projects</h3>
       <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 2xl:mt-[51px] 2xl:gap-x-16 2xl:gap-y-5">
         {projects.map((project, idx) => (

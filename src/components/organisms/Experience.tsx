@@ -22,7 +22,7 @@ type Props = {
 
 export default function Experience({ experiences }: Props) {
   return (
-    <div className="grid grid-cols-1 gap-4 lg:grid-cols-9 lg:gap-0">
+    <div className="grid grid-cols-1 gap-4 lg:grid-cols-9 lg:gap-0" id="resumes">
       <div className="col-span-12 lg:col-span-2">
         <h3 className="uppercase">Experience</h3>
       </div>
