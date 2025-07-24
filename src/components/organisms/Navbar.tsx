@@ -34,20 +34,6 @@ export default function Navbar() {
               </a>
             ))}
           </div>
-          <button>
-            <HiMoon className="text-2xl text-gray-800"/>
-          </button>
-          <button
-            className="md:hidden focus:outline-none"
-            onClick={toggleMenu}
-            aria-label="Toggle Menu"
-          >
-            {isOpen ? (
-              <HiOutlineX className="w-6 h-6 text-gray-800"/>
-            ): (
-              <HiMenu className="w-6 h-6 text-gray-800" />
-            )}
-          </button>
         </nav>
 
 

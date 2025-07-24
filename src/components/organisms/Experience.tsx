@@ -35,7 +35,7 @@ export default function Experience({ experiences }: Props) {
             </InfoHeading>
             <Tag className="text-sm 2xl:text-base">{experience.location}</Tag>
             <InfoDescription> 
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-1 md:gap-3">
                 {experience.job_desks.map((i, idx) => (
                   <li key={idx}>
                     - {i}
