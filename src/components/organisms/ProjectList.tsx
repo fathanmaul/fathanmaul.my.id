@@ -24,14 +24,14 @@ type Props = {
 export default function ProjectList({projects}: Props) {
   return (
     <div id="projects">
-      <h3 className="uppercase">Featured Projects</h3>
+      <h2 className="uppercase">Featured Projects</h2>
       <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 2xl:mt-[51px] 2xl:gap-x-16 2xl:gap-y-5">
         {projects.map((project, idx) => (
           <Card key={idx}>
-            <CardImage image_url={project.image_url} />
+            <CardImage image_url={project.image_url} alt={`Image of ${project.title}`}/>
             <CardHeading>
               <CardTitle>{project.title}</CardTitle>
-              <CardAction demo_url={project.demo_link} github_url={project.github_link} />
+              <CardAction demo_url={project.demo_link} github_url={project.github_link} title={project.title}/>
             </CardHeading>
             <CardDescription>{project.description}</CardDescription>
             <div className="flex gap-1">

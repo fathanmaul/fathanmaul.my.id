@@ -10,7 +10,7 @@ function InfoCard({ children, className }: InfoCardProps) {
 }
 
 function InfoTitle({ children, className }: InfoCardProps) {
-  return <h5 className={`text-base 2xl:text-2xl ${className}`}>{children}</h5>;
+  return <h3 className={`text-base 2xl:text-2xl ${className}`}>{children}</h3>;
 }
 
 function InfoDate({ children, className }: InfoCardProps) {

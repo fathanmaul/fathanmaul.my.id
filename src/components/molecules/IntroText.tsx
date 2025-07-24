@@ -3,7 +3,7 @@ import React from "react";
 export default function IntroText() {
   return (
     <div>
-      <h3 className="font-extralight">Hey, I'm</h3>
+      <p className="font-extralight">Hey, I'm</p>
       <h1 className="font-hero" id="hero-heading">
         Fathan Maulana
       </h1>
