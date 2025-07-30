@@ -36,7 +36,7 @@ export default function Contacts() {
           <a key={idx} href={contact.href} target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="text-base lg:text-xl w-full flex items-center gap-2 justify-center">
               <span>{contact.icon}</span>
-              {contact.label}
+              <span className="hidden md:block">{contact.label}</span>
             </Button>
           </a>
         ))}
