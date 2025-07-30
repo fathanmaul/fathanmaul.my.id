@@ -5,6 +5,7 @@
     --font-display: "Inter", "sans-serif";
     --breakpoint-2xl: 90rem;
     --breakpoint-3xl: 96rem;
+    --breakpoint-4xl: 102rem;
     --color-dark: #111111;
     --font-hero: "GTWalsheimProRegular", "sans-serif";
 }
@@ -27,6 +28,10 @@
     }
 
     @variant 3xl {
+        @apply max-w-screen-2xl px-[1px]
+    }
+
+    @variant 4xl {
         @apply max-w-screen-3xl px-[1px]
     }
 }
