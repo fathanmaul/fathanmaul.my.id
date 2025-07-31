@@ -6,7 +6,7 @@ const contacts = [
   {
     label: "Send an Email",
     icon: <BsEnvelope />,
-    href: "mailto:fthnmrh012@gmail.com",
+    href: "mailto:fthanmaul@gmail.com",
   },
   {
     label: "GitHub",
