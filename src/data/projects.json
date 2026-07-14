@@ -1,10 +1,23 @@
 [
   {
+    "title": "B2B Marketplace",
+    "description": "A business-to-business e-commerce platform that connects trusted suppliers and buyers, enabling efficient wholesale trading, procurement, and corporate purchasing.",
+    "image_url": "/assets/media/projects/B2B.webp",
+    "tag": ["Laravel", "Filament"],
+    "demo_link": "https://sibima.id/"
+  },
+  {
+    "title": "ERP Multi Module",
+    "description": "An integrated business management system that streamlines operations across multiple departments, such as finance, inventory, procurement, and sales",
+    "image_url": "/assets/media/projects/BRP.webp",
+    "tag": ["Laravel", "Javascript", "Bootstrap"],
+    "demo_link": "#"
+  },
+  {
     "title": "Anime Recommender System",
     "description": "An anime recommendation system is a feature designed to help users discover anime that match their personal preferences.",
     "image_url": "/assets/media/projects/davernime.webp",
-    "tag": ["Laravel", "Tailwind CSS", "Flask"],
-    "github_link": "https://github.com/fathanmaul/davernime",
+    "tag": [".NET", "Python", "Tailwind CSS"],
     "demo_link": "https://anime.davern.my.id"
   },
   {

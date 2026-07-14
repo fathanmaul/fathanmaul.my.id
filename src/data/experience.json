@@ -1,5 +1,16 @@
 [
     {
+        "title": "Web Developer",
+        "location": "PT Xeno Persada Teknologi",
+        "start_date": "Oct 2025",
+        "end_date": "Present",
+        "job_desks": [
+            "Developed and maintained web application features based on business re quirements.",
+            "Implemented new functionalities and enhanced existing system features.",
+            "Designed and developed backend APIs to support frontend integration"
+        ]
+    },
+    {
         "title": "Front End Developer (Freelance)",
         "location": "Remote",
         "start_date": "Jun 2025",
