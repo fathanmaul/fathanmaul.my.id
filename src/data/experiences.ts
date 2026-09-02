@@ -1,7 +1,7 @@
 export const experience = [
     {
         company: "Xenopati - PT. Xeno Persada Teknologi",
-        role: "Web Developer",
+        role: "Full Stack Web Developer",
         period: "Oct 2025 — Present",
         achievements: [
             "Developed and maintained web application features based on business requirements.",
@@ -11,7 +11,7 @@ export const experience = [
     },
     {
         company: "Freelance - Remote",
-        role: "Web Developer",
+        role: "Full Stack Web Developer",
         period: "Jun 2024 — Jul 2025",
         achievements: [
             "Refined the web application's design to match client specifications.",
@@ -21,7 +21,7 @@ export const experience = [
     },
     {
         company: "CV. Nusantara Tama",
-        role: "Web Developer (Internship)",
+        role: "Full Stack Web Developer (Internship)",
         period: "Oct 2024 — Feb 2025",
         achievements: [
             "Developed and maintained web application features based on business requirements.",
