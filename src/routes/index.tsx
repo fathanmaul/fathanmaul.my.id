@@ -15,6 +15,7 @@ import { education } from "@/data/educations";
 import { experience } from "@/data/experiences";
 import { socials } from "@/data/socials";
 import { coworkTools } from "@/data/coworks";
+import Navbar from "@/components/common/navbar";
 
 const TITLE = "Fathan Maulana — Software Engineer";
 const DESCRIPTION =
@@ -125,23 +126,7 @@ function Index() {
           <a href="#top" className="text-sm font-bold tracking-tight">
             FM<span className="text-accent">.</span>
           </a>
-          <nav className="hidden gap-8 text-sm text-muted-foreground sm:flex">
-            <a className="transition-colors hover:text-foreground" href="#work">
-              Work
-            </a>
-            <a className="transition-colors hover:text-foreground" href="#experience">
-              Experience
-            </a>
-            <a className="transition-colors hover:text-foreground" href="#ai">
-              AI
-            </a>
-            <a className="transition-colors hover:text-foreground" href="#education">
-              Education
-            </a>
-            <a className="transition-colors hover:text-foreground" href="#contact">
-              Contact
-            </a>
-          </nav>
+          <Navbar />
           <a
             href="#contact"
             className="rounded-full border border-foreground/25 px-4 py-1.5 text-xs font-semibold tracking-wide transition-colors hover:bg-foreground hover:text-background"
@@ -220,7 +205,7 @@ function Index() {
           </div>
           <div className="mt-12 grid gap-10 sm:grid-cols-2">
             {sortedProjects.map((p, index) => (
-              <a key={p.title} href={p.href} className="group block">
+              <a key={p.title} href={p.href} className="group block" target={p.href === "#" ? "": "_blank"}>
                 <div className="overflow-hidden rounded-md border border-border bg-card">
                   <img
                     src={p.image}
@@ -265,7 +250,7 @@ function Index() {
             {coworkTools.map((tool) => (
               <article
                 key={tool.name}
-                className="group rounded-2xl border border-border bg-card p-6 transition-transform duration-300 hover:-translate-y-1"
+                className="group rounded-2xl border border-border bg-card p-6 transition-transform duration-300"
               >
                 <div className="flex items-start gap-4">
                   <div className="flex size-14 shrink-0 items-center justify-center rounded-2xl border border-border bg-background/70 p-3">

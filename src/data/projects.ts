@@ -24,7 +24,7 @@ export const projects: Project[] = [
         month: 9,
     },
     {
-        title: "ERP Multi-Module",
+        title: "Enterprise Resource Planning Platform",
         description:
             "An integrated business management system that streamlines operations across multiple departments, such as finance, inventory, procurement, and sales.",
         stack: ["Laravel", "PHP", "JQuery"],
@@ -39,7 +39,7 @@ export const projects: Project[] = [
             "A business-to-business e-commerce platform that connects trusted suppliers and buyers, enabling efficient wholesale trading, procurement, and corporate purchasing.",
         stack: ["Laravel", "PHP", "FilamentPHP"],
         image: project3,
-        href: "#",
+        href: "https://sibima.id",
         year: 2026,
         month: 1,
     },
