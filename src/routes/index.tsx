@@ -244,7 +244,7 @@ function Index() {
         {/* AI Workflows */}
         <section id="ai" className="border-t border-border py-20 sm:py-28">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-            <SectionLabel>AI Co-workers</SectionLabel>
+            <SectionLabel>AI Partners</SectionLabel>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2">
             {coworkTools.map((tool) => (
